@@ -5,4 +5,4 @@ title: Onur Inan
 
 # Hello
 
-I am Onur, a student studying Cyber Security.
+I am **Onur**, a student studying Cyber Security.

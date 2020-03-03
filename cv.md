@@ -3,4 +3,4 @@ layout: default
 title: CV
 ---
 
-# This is my CV
+# This is my **CV**

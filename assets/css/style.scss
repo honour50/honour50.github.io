@@ -3,15 +3,13 @@
 .site-footer{
   left: 0;
   bottom: 0;
-  position: fixed;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  position: absolute;
+  margin-top: 2rem;
   background-color: rgba(200,200,200,.3);
   text-align: center;
   width: 100%;
-  opacity: .4;
+  opacity: .5;
+  min-height: 100px;
 }
 
 @import "{{ site.theme }}";
