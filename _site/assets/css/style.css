@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+.site-footer { left: 0; bottom: 0; position: fixed; padding-top: 1rem; padding-bottom: 1rem; padding-left: 2rem; padding-right: 2rem; background-color: rgba(200, 200, 200, 0.3); text-align: center; width: 100%; opacity: .4; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /** Remove default margin. */
@@ -317,3 +319,15 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+.topnav { overflow: hidden; }
+
+.topnav a { float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; }
+
+.topnav a:hover { background-color: #ddd; color: black; }
+
+#skip-to-content { height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px; }
+
+@media screen and (min-width: 64em) { .topnav { font-size: 1.7rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .topnav { font-size: 1.4rem; } }
+@media screen and (max-width: 42em) { .topnav { font-size: 1.1rem; } }
