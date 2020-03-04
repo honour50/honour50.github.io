@@ -1,15 +1,7 @@
 ---
 ---
 .site-footer{
-  left: 0;
-  bottom: 0;
-  position: absolute;
-  margin-top: 2rem;
-  background-color: rgba(200,200,200,.3);
-  text-align: center;
-  width: 100%;
-  opacity: .5;
-  min-height: 100px;
+
 }
 
 @import "{{ site.theme }}";
@@ -55,4 +47,17 @@ font-size: 1.4rem;
 .topnav { 
 font-size: 1.1rem; 
 } 
+}
+
+.site-footer{
+  position: absolute;
+  background-color: rgba(200,200,200,.5);
+  text-align: center;
+  width: 100%;
+  opacity: .5;
+  right: 0;
+  bottom: -1.7rem;
+  left: 0;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
