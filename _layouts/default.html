@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-
+    <script type="text/javascript">
+      document.cookie = "username=user213";
+      document.cookie = "id=1234;secure";
+    </script>
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
       <script>
