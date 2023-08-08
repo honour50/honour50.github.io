@@ -1,0 +1,20 @@
+entries:
+  - title: me
+    entries:
+      - title: about
+        url: about
+      - title: email
+        url: emailto:onur.inan.h@gmail.com
+      - title: github
+        url: https://github.com/honour50
+
+  - title: all posts
+    post_list:
+      limit: 10
+
+  - title: fun
+    entries:
+      - title: wordle clone in react
+        url: https://onurinan.nl/wordle-clone
+      - title: chatgpt app in flutter
+        url: https://chat.onurinan.nl
